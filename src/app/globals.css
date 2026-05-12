@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-ink antialiased;
+}
+
+.section-shell {
+  @apply mx-auto max-w-6xl px-6 py-16 md:px-8;
+}
+
+.section-title {
+  @apply text-3xl font-semibold tracking-tight text-ink md:text-4xl;
+}
+
+.section-copy {
+  @apply mt-4 max-w-3xl text-base leading-7 text-slate-600;
+}
