@@ -4,7 +4,7 @@ export function Footer() {
       <div className="section-shell flex flex-col gap-3 py-8 text-sm text-slate-600 md:flex-row md:items-center md:justify-between">
         <div>
           <p className="font-semibold text-ink">Infotronic</p>
-          <p>Technology Consulting & Software Solutions</p>
+          <p>Contract Software Engineering & Delivery</p>
         </div>
         <div className="text-left md:text-right">
           <p>Naperville, IL</p>

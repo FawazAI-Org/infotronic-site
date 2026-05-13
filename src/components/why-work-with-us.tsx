@@ -1,9 +1,10 @@
 const reasons = [
-  'Enterprise-focused delivery',
-  'Cloud and infrastructure experience',
-  'Flexible consulting support',
-  'Reliable communication',
-  'Practical engineering solutions',
+  'Fast ramp-up for contract timelines',
+  'Clear weekly status and risk flags',
+  'Flexible terms (W2, C2C, 1099)',
+  'Remote-first with onsite options',
+  'Clean handoffs and documentation',
+  'Recruiter-friendly interview and onboarding process',
 ];
 
 export function WhyWorkWithUs() {
