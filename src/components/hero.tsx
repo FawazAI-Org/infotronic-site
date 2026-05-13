@@ -11,9 +11,9 @@ export function Hero() {
             width={360}
             height={148}
             priority
-            className="h-auto w-72 md:w-80"
+            className="mx-auto h-auto w-72 bg-transparent mix-blend-multiply md:w-80"
           />
-          <p className="mt-4 text-sm font-semibold uppercase tracking-[0.2em] text-accent">Infotronic Contract Engineering</p>
+          <p className="mt-4 text-center text-sm font-semibold uppercase tracking-[0.2em] text-accent md:text-left">Infotronic Contract Engineering</p>
           <h1 className="mt-6 text-4xl font-semibold tracking-tight text-ink md:text-6xl">
             Software Engineering Contractors for Product and Platform Teams
           </h1>
