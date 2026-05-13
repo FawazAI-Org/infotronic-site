@@ -23,7 +23,7 @@ export function Contact() {
             <textarea id="message" name="message" rows={6} className="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm text-ink outline-none transition focus:border-accent focus:ring-2 focus:ring-emerald-100" />
           </div>
         </div>
-        <button type="button" className="mt-6 rounded-xl bg-accent px-5 py-3 font-medium text-white transition hover:bg-accentdark">
+        <button type="button" className="mt-6 w-full rounded-xl bg-accent px-5 py-3 font-medium text-white transition hover:bg-accentdark sm:w-auto">
           Send Message
         </button>
       </form>

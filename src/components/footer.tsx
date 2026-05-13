@@ -15,7 +15,7 @@ export function Footer() {
           <p className="font-semibold text-ink">Infotronic</p>
           <p>Contract Software Engineering & Delivery</p>
         </div>
-        <div className="text-left md:text-right">
+        <div className="text-center md:text-right">
           <p>Naperville, IL</p>
           <p>contact@infotronic.com</p>
         </div>
