@@ -20,10 +20,10 @@ export function Contact() {
           <Field label="Company / Agency" name="company" className="md:col-span-2" />
           <div className="md:col-span-2">
             <label htmlFor="message" className="mb-2 block text-sm font-medium text-ink">Message</label>
-            <textarea id="message" name="message" rows={6} className="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm text-ink outline-none transition focus:border-accent focus:ring-2 focus:ring-blue-100" />
+            <textarea id="message" name="message" rows={6} className="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm text-ink outline-none transition focus:border-accent focus:ring-2 focus:ring-emerald-100" />
           </div>
         </div>
-        <button type="button" className="mt-6 rounded-xl bg-accent px-5 py-3 font-medium text-white transition hover:bg-blue-700">
+        <button type="button" className="mt-6 rounded-xl bg-accent px-5 py-3 font-medium text-white transition hover:bg-accentdark">
           Send Message
         </button>
       </form>
@@ -35,7 +35,7 @@ function Field({ label, name, type = 'text', className = '' }: { label: string; 
   return (
     <div className={className}>
       <label htmlFor={name} className="mb-2 block text-sm font-medium text-ink">{label}</label>
-      <input id={name} name={name} type={type} className="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm text-ink outline-none transition focus:border-accent focus:ring-2 focus:ring-blue-100" />
+      <input id={name} name={name} type={type} className="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm text-ink outline-none transition focus:border-accent focus:ring-2 focus:ring-emerald-100" />
     </div>
   );
 }

@@ -8,9 +8,9 @@ export function Footer() {
           <Image
             src="/infotronic-logo.png"
             alt="Infotronic Systems Inc logo"
-            width={220}
-            height={60}
-            className="h-auto w-44"
+            width={170}
+            height={70}
+            className="h-auto w-32"
           />
           <p className="font-semibold text-ink">Infotronic</p>
           <p>Contract Software Engineering & Delivery</p>

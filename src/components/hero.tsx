@@ -8,12 +8,12 @@ export function Hero() {
           <Image
             src="/infotronic-logo.png"
             alt="Infotronic Systems Inc logo"
-            width={520}
-            height={140}
+            width={360}
+            height={148}
             priority
-            className="h-auto w-full max-w-md"
+            className="h-auto w-72 md:w-80"
           />
-          <p className="mt-6 text-sm font-semibold uppercase tracking-[0.2em] text-accent">Infotronic Contract Engineering</p>
+          <p className="mt-4 text-sm font-semibold uppercase tracking-[0.2em] text-accent">Infotronic Contract Engineering</p>
           <h1 className="mt-6 text-4xl font-semibold tracking-tight text-ink md:text-6xl">
             Software Engineering Contractors for Product and Platform Teams
           </h1>
@@ -24,7 +24,7 @@ export function Hero() {
             Fast onboarding • Flexible engagement models • Production-ready handoff
           </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <a href="#contact" className="rounded-xl bg-accent px-6 py-3 text-center font-medium text-white transition hover:bg-blue-700">
+            <a href="#contact" className="rounded-xl bg-accent px-6 py-3 text-center font-medium text-white transition hover:bg-accentdark">
               Share a Role
             </a>
             <a href="#services" className="rounded-xl border border-slate-300 px-6 py-3 text-center font-medium text-ink transition hover:border-slate-400 hover:bg-slate-50">

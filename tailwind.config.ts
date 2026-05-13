@@ -7,7 +7,8 @@ const config: Config = {
       colors: {
         ink: '#0f172a',
         slateblue: '#1e293b',
-        accent: '#2563eb',
+        accent: '#0f7a4f',
+        accentdark: '#0b5c3c',
         soft: '#f8fafc',
       },
     },
