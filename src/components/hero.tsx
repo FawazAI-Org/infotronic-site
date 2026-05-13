@@ -1,9 +1,19 @@
+import Image from 'next/image';
+
 export function Hero() {
   return (
     <section className="bg-gradient-to-b from-slate-50 to-white">
       <div className="section-shell py-20 md:py-28">
         <div className="max-w-4xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">Infotronic Contract Engineering</p>
+          <Image
+            src="/infotronic-logo.png"
+            alt="Infotronic Systems Inc logo"
+            width={520}
+            height={140}
+            priority
+            className="h-auto w-full max-w-md"
+          />
+          <p className="mt-6 text-sm font-semibold uppercase tracking-[0.2em] text-accent">Infotronic Contract Engineering</p>
           <h1 className="mt-6 text-4xl font-semibold tracking-tight text-ink md:text-6xl">
             Software Engineering Contractors for Product and Platform Teams
           </h1>
